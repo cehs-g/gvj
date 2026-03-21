@@ -18,14 +18,14 @@ body {
 h1 { 
     font-size: 70px;
      text-align: center;
-     color: green;
+     color: #0D32D4;
      font-family:"Times New Roman", Times, serif;;
 
 }
 h2 {
     font-size: 65px;
     text-align: center;
-    color: blue;
+    color: black;
     font-family:"Times New Roman", Times, serif;
 }
 div {
@@ -79,21 +79,41 @@ section {
 .controls {
   margin-top: 15px;
 }
-img{
-    width:600px;
-    height:400px;
-    padding-left: 35%;
-}
+
 button {
   padding: 10px 20px;
   margin: 5px;
   font-size: 16px;
   cursor: pointer;
 }
+.imageflex { display: flex; 
+}
 
+.imageflexcontent { margin-left: 5px; margin-top: 0; 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 8%;
+}
 
-
-
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background-color: #B0B0B0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 #sākums { background: #f4f4f4; }
 #atteluapstrade { background: #ddd; }
 #tekstuapstrāde { background: #bbb; }

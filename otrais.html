@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style> 
+        html {
+  scroll-behavior: smooth; /* smooth scrolling */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+h1 { 
+    font-size: 70px;
+     text-align: center;
+     color: #0D32D4;
+     font-family:"Times New Roman", Times, serif;;
+
+}
+h2 {
+    font-size: 65px;
+    text-align: center;
+    color: black;
+    font-family:"Times New Roman", Times, serif;
+}
+div {
+    text-align: center;
+   
+}
+p {
+    text-align: center;
+    text-indent: 55px;
+    color:#333;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.navbar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #575757;
+}
+
+
+.nav-item:hover .dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+
+section {
+  padding: 40px;
+  
+}
+img{
+    padding-left:15%
+}
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.imageflex { display: flex; 
+}
+
+.imageflexcontent { margin-left: 5px; margin-top: 0; 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 8%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+</style>
+    <body>
+        <h1>Individuālā tēma</h1>
+        <h2>Plakāts</h2>
+        <div class="navbar">
+             <div class="nav-item">
+    <a href="#p">Plakāts</a>
+  </div>
+            
+  <div class="nav-item">
+    <a href="index.html#sakums">Sākums</a>
+  </div>
+
+  <div class="nav-item">
+    <a href="index.html#atteluapstrade">Attēlu apstrāde▾</a>
+    <div class="dropdown">
+      <a href="index.html#rgraf">Rastra grafika</a>
+      <a href="index.html#vgraf">Vektorgrafika</a>
+      
+    </div>
+    
+  </div>
+
+  <div class="nav-item">
+    <a href="index.html#tekstuapstrade">Tekstu apstrāde</a>
+  </div>
+<div class="nav-item">
+    <a href="index.html#3d">3D Modelēšana</a>
+  </div>
+  <div class="nav-item">
+    <a href="index.html#video">Video</a>
+  </div>
+ 
+<div class="nav-item">
+    <a href="index.html#izklajlapas">Izklājlapas</a>
+  </div>
+ <div class="nav-item">
+     <a href="index.html#skola">Skola</a>
+  </div>
+        </div>
+        <section id="p">
+  <h1>Plakāts</h1>
+  <div class="imageflex">
+  <img src="img/wdp.png" alt="word" width:="700px" height="500px">
+
+  <p class="imageflexcontent">Tika uzdots izveidot plakātu par sniegto tēmu. Šī tēma ir wi-fi drošiba. Šeit ir norādītās saites uz informācijas avotiem:  <a href="https://www.esidross.lv/2017/03/10/apstajies-padoma-piesledzies/" name="esidross.lv">Esidrošs.lv </a>. Šeit ir teksts:Nomainiet interneta maršrutētāja vai bezvadu piekļuves punkta noklusēto administratora paroli. Administratora konts ir tas, kas kontrolē bezvadu tīkla iestatījumus.</p>
+</div>
+        </section>
+    </body>
+</html>
