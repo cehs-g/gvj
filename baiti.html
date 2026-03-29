@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Baiti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function clearFields(){
+               document.getElementById("mb").value=""
+               document.getElementById("at").value=""
+           }
+        </script>
+       
+    </head>
+    <body>
+        <form>
+            <label for="mb">Aprēķinat cik daudz informācijas var lejupielādēt</label><br>
+            <input type="text" id="mb" name="mb" onclick="clearFields()">sekundēs, ja interneta ātrums ir 25Mbps.<br>
+           
+           
+           
+           
+            <label for="at">Atbilde</label><br>
+            <input type="text" id="at" name="at">
+           
+           
+           
+           
+           
+            <input type="radio" id="kb" onclick="at.value=3052*mb.value" name="a" value="k">
+            <label for="html">KiB</label>
+           
+           
+           
+           
+           
+            <input type="radio" id="kib" name="a" onclick="at.value=3125*mb.value" value="k">
+            <label for="html">KB</label><br>
+        </form>
+    </body>
+</html>
+
